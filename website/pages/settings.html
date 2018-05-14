@@ -31,7 +31,7 @@
 
     function editEmailAddress(email, address, ip, action) {
 				if (address.length != 99) {
-            $('#action_update_message').text('Please double check your Sumo address');
+            $('#action_update_message').text('Please double check your XHV address');
             $('#action_update_message').removeClass().addClass('alert alert-warning');
             return;
         }
@@ -131,7 +131,7 @@
       <div id="action_update_message" role="alert" ></div>
     </div>
     <div class="form-group">
-        <label class="col-sm-2 col-form-label col-form-label-lg" for="yourAddress">Sumo address:</label>
+        <label class="col-sm-2 col-form-label col-form-label-lg" for="yourAddress">Haven address:</label>
         <div class="col-sm-10">
           <input class="form-control" id="yourAddress" type="text" placeholder="Enter Your Address">
         </div>
@@ -161,7 +161,7 @@
     <br>
     <h2>Set your minimal payout level</h2>
     If you prefer a higher payout level than the pool's default then this is
-    where you can change it for your miners. The amount of Sumo you indicate
+    where you can change it for your miners. The amount of Haven you indicate
     here will become the minimum amount for pool payments to your address.
     <div>
         <label class="col-sm-2 col-form-label col-form-label-lg" for="yourPayoutRate">Minimum payout:
