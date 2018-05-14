@@ -1,4 +1,4 @@
-var api = "https://107.swag.80.92:8888";
+var api = "https://pool.havenprotocol.com/api";
 
 var poolHost = "pool.havenprotocol.com";
 
