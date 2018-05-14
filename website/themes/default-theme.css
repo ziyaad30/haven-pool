@@ -1,8 +1,8 @@
 a {
-  color: #03a678;
+  color: #0f232b;
 }
 a:hover {
-  color: #025b42;
+  color: #cccccc;
 }
 body {
   line-height: 1.428571429;
@@ -38,7 +38,7 @@ body {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #03a678;
+  background-color: #0f232b;
 }
 #stats_updated {
   color: #F4FC3D;
@@ -50,13 +50,13 @@ hr {
   color: #7C7C7C;
 }
 .stats > div:not(#addressError) > i.fa {
-  color: #03a678; 
+  color: #0f232b; 
 }
 .stats > div:not(#addressError) > span:not(.input-group-btn):first-of-type {  
   color: #336A80;
 }
 .form-control {
-  border: 1px solid #03a678;  
+  border: 1px solid #0f232b;  
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
@@ -64,14 +64,14 @@ hr {
   border-color: #027454;
 }
 .input-group-addon {
-  background-color: #03a678;
+  background-color: #0f232b;
   color: #fff;
-  border-color: #03a678;
+  border-color: #0f232b;
 }
 .btn-default {
   color: #ffffff;
-  background-color: #03a678;
-  border-color: #03a678;
+  background-color: #0f232b;
+  border-color: #0f232b;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -102,11 +102,11 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #03a678;
-  border-color: #03a678;
+  background-color: #0f232b;
+  border-color: #0f232b;
 }
 .btn-default .badge {
-  color: #03a678;
+  color: #0f232b;
   background-color: #ffffff;
 }
 code {
@@ -114,7 +114,7 @@ code {
   background-color: #FDECF1;
 }
 .bg-primary {
-  background-color: #03a678;
+  background-color: #0f232b;
 }
 .bg-info {
   background-color: #336A80;
@@ -153,8 +153,8 @@ footer {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #03a678;
-  border-color: #03a678;
+  background-color: #0f232b;
+  border-color: #0f232b;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -185,19 +185,19 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #03a678;
-  border-color: #03a678;
+  background-color: #0f232b;
+  border-color: #0f232b;
 }
 .btn-primary .badge {
-  color: #03a678;
+  color: #0f232b;
   background-color: #ffffff;
 }
 a.list-group-item.active,
 a.list-group-item.active:hover,
 a.list-group-item.active:focus {
   color: #ffffff;
-  background-color: #03a678;
-  border-color: #03a678;
+  background-color: #0f232b;
+  border-color: #0f232b;
 }
 .adminStats > div {
   color: #2E3D31;
@@ -218,6 +218,6 @@ a.list-group-item.active:focus {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #03a678;
+  background-color: #0f232b;
 }
 

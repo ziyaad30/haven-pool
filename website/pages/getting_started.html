@@ -73,13 +73,6 @@
 
 <hr>
 
-<h3>For <i class="fa fa-windows"></i> Windows users new to mining</h3>
-<p class="getting_started_windows">
-    You can <a class="btn btn-default btn-sm" target="_blank" id="easyminer_link"><i class="fa fa-download"></i> Download</a>
-    and run <a target="_blank" href="https://github.com/zone117x/cryptonote-easy-miner">cryptonote-easy-miner</a> <i class="fa fa-github"></i>
-    which will automatically generate your wallet address and run CPUMiner with the proper parameters.
-</p>
-
 <hr>
 
 <h3>Mining Apps</h3>
@@ -96,65 +89,9 @@
         </thead>
         <tbody id="mining_apps">
         <tr>
-            <td class="miningAppTitle">CPUMiner (forked by LucasJones & Wolf)</td>
-            <td>CPU</td>
-            <td><a target="_blank" href="https://bitcointalk.org/index.php?topic=632724">BitcoinTalk</a></td>
-            <td><a target="_blank" href="https://bitcointalk.org/index.php?topic=632724">BitcoinTalk</a></td>
-            <td><a target="_blank" href="https://github.com/wolf9466/cpuminer-multi">Github</a></td>
-        </tr>
-        <tr>
-            <td colspan="5">
-                <span>Example:</span>
-                <code>minerd -a cryptonight -o stratum+tcp://<span class="exampleHost"></span>:<span class="examplePort"></span> -u <span class="exampleAddress">YOUR_WALLET_ADDRESS</span> -p x</code>
-            </td>
-        </tr>
-        <tr>
-            <td class="miningAppTitle">YAM Miner (by yvg1900)</td>
-            <td>CPU</td>
-            <td><a target="_blank" href="https://mega.co.nz/#F!UlkU0RyR!E8n4CFkqVu0WoOnsJnQkSg">MEGA</a></td>
-            <td><a target="_blank" href="https://twitter.com/yvg1900">Twitter</a></td>
-            <td>Proprietary <i class="fa fa-frown-o"></i></td>
-        </tr>
-        <tr>
-            <td colspan="5">
-                <span>Example:</span>
-                <code>yam -c x -M stratum+tcp://<span class="exampleAddress">YOUR_WALLET_ADDRESS</span>:x@<span class="exampleHost"></span>:<span class="examplePort"></span>/xmr</code>
-            </td>
-        </tr>
-        <tr>
-            <td class="miningAppTitle">XMR-Stak-CPU</td>
-            <td>CPU</td>
-            <td><a target="_blank" href="https://github.com/fireice-uk/xmr-stak-cpu/releases">Releases</a></td>
-            <td><a target="_blank" href="https://github.com/fireice-uk/xmr-stak-cpu/issues">Issues</a></td>
-            <td><a target="_blank" href="https://github.com/fireice-uk/xmr-stak-cpu">Github</a></td>
-        </tr>
-        <tr>
-            <td colspan="5">
-                <span>Example config.txt (replace the relevant lines):</span><br>
-                <span><code>"pool_address" : "pool.havenprotocol.com:3333", <br>
-				"wallet_address" : "YOUR_WALLET_ADDRESS",<br>
-                "pool_password" : "x",</code></span>
-            </td>
-        </tr>
-        <tr>
-            <td class="miningAppTitle">XMR-Stak-AMD</td>
-            <td>AMD GPU</td>
-            <td><a target="_blank" href="https://github.com/fireice-uk/xmr-stak-amd/releases">Releases</a></td>
-            <td><a target="_blank" href="https://github.com/fireice-uk/xmr-stak-amd/issues">Issues</a></td>
-            <td><a target="_blank" href="https://github.com/fireice-uk/xmr-stak-amd">Github</a></td>
-        </tr>
-        <tr>
-            <td colspan="5">
-                <span>Example config.txt (replace the relevant lines):</span><br>
-                <span><code>"pool_address" : "pool.havenprotocol.com:3333",<br>
-				"wallet_address" : "YOUR_WALLET_ADDRESS",<br>
-                "pool_password" : "x",</code></span>
-            </td>
-        </tr>
-        <tr>
-            <td class="miningAppTitle">XMR-Stak-NVIDA</td>
-            <td>NVIDIA GPU</td>
-            <td><a target="_blank" href="https://github.com/fireice-uk/xmr-stak-nvidia/releases">Releases</a></td>
+            <td class="miningAppTitle">XMR-Stak</td>
+            <td><i class="fa fa-desktop"></i><b> CPU + AMD + NVIDIA<b/></td>
+            <td><i class="fa fa-download"></i><a target="_blank" href="https://github.com/fireice-uk/xmr-stak-nvidia/releases"><b> Download</a></td>
             <td><a target="_blank" href="https://github.com/fireice-uk/xmr-stak-nvidia/issues">Issues</a></td>
             <td><a target="_blank" href="https://github.com/fireice-uk/xmr-stak-nvidia">Github</a></td>
         </tr>
@@ -162,14 +99,14 @@
             <td colspan="5">
                 <span>Example config.txt (replace the relevant lines):</span><br>
                 <span><code>"pool_address" : "pool.havenprotocol.com:3333", <br>
-				"wallet_address" : "YOUR_WALLET_ADDRESS",<br>
-			"pool_password" : "x",</code></span>
+                    			  "wallet_address" : "YOUR_WALLET_ADDRESS",<br>
+                    			  "pool_password" : "x",</code></span>
             </td>
         </tr>
         <tr>
             <td class="miningAppTitle">ccminer (forked by tsiv)</td>
-            <td>CUDA (Nvidia)</td>
-            <td><a target="_blank" href="https://github.com/tsiv/ccminer-cryptonight/releases">Github</a></td>
+            <td><i class="fa fa-gamepad"></i><b> NVIDIA GPU<b/></td>
+            <td><i class="fa fa-download"></i><a target="_blank" href="https://github.com/tsiv/ccminer-cryptonight/releases"><b> Download</a></td>
             <td><a target="_blank" href="https://bitcointalk.org/index.php?topic=656841.msg7487737#msg7487737">BitcoinTalk</a></td>
             <td><a target="_blank" href="https://github.com/tsiv/ccminer-cryptonight">Github</a></td>
         </tr>
